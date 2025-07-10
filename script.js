@@ -25,7 +25,7 @@ document.getElementById("payment-form").addEventListener("submit", async functio
       key: "rzp_test_b3lKIMqCuqa7bP", // Replace with real Razorpay Key ID
       amount: orderData.amount,
       currency: "INR",
-      name: "IIITM Event",
+      name: "IIITM Ticket Booking",
       description: "Event Ticket",
       order_id: orderData.id,
       prefill: { name, email },
