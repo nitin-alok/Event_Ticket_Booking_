@@ -12,7 +12,7 @@ document.getElementById("payment-form").addEventListener("submit", async functio
   }
 
   try {
-    const orderRes = await fetch("http://localhost:5000/create-order", {
+    const orderRes = await fetch("https://event-ticket-booking-jaei.onrender.com/create-order", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ amount })
